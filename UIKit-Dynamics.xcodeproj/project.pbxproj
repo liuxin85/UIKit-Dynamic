@@ -23,6 +23,8 @@
 		4B36E725197244670092EF47 /* UIKit_DynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E724197244670092EF47 /* UIKit_DynamicsTests.m */; };
 		4B36E72F19724A590092EF47 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B36E72E19724A590092EF47 /* Ball.png */; };
 		4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */; };
+		4B36E73B1972541A0092EF47 /* ItemPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */; };
+		4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73D19725A9F0092EF47 /* SnapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		4B36E72E19724A590092EF47 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
 		4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityWithCollisionViewController.h; sourceTree = "<group>"; };
 		4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityWithCollisionViewController.m; sourceTree = "<group>"; };
+		4B36E7391972541A0092EF47 /* ItemPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPropertyViewController.h; sourceTree = "<group>"; };
+		4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPropertyViewController.m; sourceTree = "<group>"; };
+		4B36E73C19725A9F0092EF47 /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		4B36E73D19725A9F0092EF47 /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				4B36E708197244670092EF47 /* GravityAppDelegate.h */,
 				4B36E709197244670092EF47 /* GravityAppDelegate.m */,
 				4B36E70B197244670092EF47 /* Main.storyboard */,
+				4B36E73C19725A9F0092EF47 /* SnapViewController.h */,
+				4B36E73D19725A9F0092EF47 /* SnapViewController.m */,
+				4B36E7391972541A0092EF47 /* ItemPropertyViewController.h */,
+				4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */,
 				4B36E70E197244670092EF47 /* GravityViewController.h */,
 				4B36E70F197244670092EF47 /* GravityViewController.m */,
 				4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */,
@@ -260,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */,
+				4B36E73B1972541A0092EF47 /* ItemPropertyViewController.m in Sources */,
 				4B36E706197244670092EF47 /* main.m in Sources */,
 				4B36E70A197244670092EF47 /* GravityAppDelegate.m in Sources */,
+				4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */,
 				4B36E710197244670092EF47 /* GravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

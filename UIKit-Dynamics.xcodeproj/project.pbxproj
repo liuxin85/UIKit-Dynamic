@@ -25,6 +25,7 @@
 		4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */; };
 		4B36E73B1972541A0092EF47 /* ItemPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */; };
 		4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73D19725A9F0092EF47 /* SnapViewController.m */; };
+		4B36E741197269B10092EF47 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E740197269B10092EF47 /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPropertyViewController.m; sourceTree = "<group>"; };
 		4B36E73C19725A9F0092EF47 /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
 		4B36E73D19725A9F0092EF47 /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		4B36E73F197269B10092EF47 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		4B36E740197269B10092EF47 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				4B36E708197244670092EF47 /* GravityAppDelegate.h */,
 				4B36E709197244670092EF47 /* GravityAppDelegate.m */,
 				4B36E70B197244670092EF47 /* Main.storyboard */,
+				4B36E73F197269B10092EF47 /* PushViewController.h */,
+				4B36E740197269B10092EF47 /* PushViewController.m */,
 				4B36E73C19725A9F0092EF47 /* SnapViewController.h */,
 				4B36E73D19725A9F0092EF47 /* SnapViewController.m */,
 				4B36E7391972541A0092EF47 /* ItemPropertyViewController.h */,
@@ -274,6 +279,7 @@
 				4B36E706197244670092EF47 /* main.m in Sources */,
 				4B36E70A197244670092EF47 /* GravityAppDelegate.m in Sources */,
 				4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */,
+				4B36E741197269B10092EF47 /* PushViewController.m in Sources */,
 				4B36E710197244670092EF47 /* GravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

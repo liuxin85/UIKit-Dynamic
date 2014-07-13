@@ -10,4 +10,7 @@
 
 @interface GravityViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *ball;
+@property (nonatomic)UIDynamicAnimator *animator;
+
 @end

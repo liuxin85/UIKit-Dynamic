@@ -21,6 +21,8 @@
 		4B36E71B197244670092EF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B36E6FD197244670092EF47 /* UIKit.framework */; };
 		4B36E723197244670092EF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B36E721197244670092EF47 /* InfoPlist.strings */; };
 		4B36E725197244670092EF47 /* UIKit_DynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E724197244670092EF47 /* UIKit_DynamicsTests.m */; };
+		4B36E72F19724A590092EF47 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B36E72E19724A590092EF47 /* Ball.png */; };
+		4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		4B36E720197244670092EF47 /* UIKit-DynamicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKit-DynamicsTests-Info.plist"; sourceTree = "<group>"; };
 		4B36E722197244670092EF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B36E724197244670092EF47 /* UIKit_DynamicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKit_DynamicsTests.m; sourceTree = "<group>"; };
+		4B36E72E19724A590092EF47 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityWithCollisionViewController.h; sourceTree = "<group>"; };
+		4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityWithCollisionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				4B36E70B197244670092EF47 /* Main.storyboard */,
 				4B36E70E197244670092EF47 /* GravityViewController.h */,
 				4B36E70F197244670092EF47 /* GravityViewController.m */,
+				4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */,
+				4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */,
+				4B36E72E19724A590092EF47 /* Ball.png */,
 				4B36E711197244670092EF47 /* Images.xcassets */,
 				4B36E700197244670092EF47 /* Supporting Files */,
 			);
@@ -231,6 +239,7 @@
 			files = (
 				4B36E712197244670092EF47 /* Images.xcassets in Resources */,
 				4B36E704197244670092EF47 /* InfoPlist.strings in Resources */,
+				4B36E72F19724A590092EF47 /* Ball.png in Resources */,
 				4B36E70D197244670092EF47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */,
 				4B36E706197244670092EF47 /* main.m in Sources */,
 				4B36E70A197244670092EF47 /* GravityAppDelegate.m in Sources */,
 				4B36E710197244670092EF47 /* GravityViewController.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "SpringAttachmentViewController.h"
+#import "BouncingSpringBehavior.h"
 
 @interface SpringAttachmentViewController ()
 
@@ -27,27 +28,14 @@
 {
     [super viewDidLoad];
     self.animator = [[UIDynamicAnimator alloc]initWithReferenceView: self.view];
-    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc]initWithItems:@[self.ball, self.star]];
-    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc]initWithItems:@[self.ball, self.star]];
     
-    CGPoint anchorPoint = CGPointMake(self.view.frame.size.width /2 , 20);
-    UIAttachmentBehavior *ballAttachmentBehavior = [[UIAttachmentBehavior alloc]initWithItem:self.ball attachedToAnchor:anchorPoint];
-    UIAttachmentBehavior *starAttachmentBehavior = [[UIAttachmentBehavior alloc]initWithItem: self.star offsetFromCenter: UIOffsetMake(-20.0, 0) attachedToItem:self.ball offsetFromCenter:UIOffsetZero];
+    CGPoint anchorPoint = CGPointMake(self.view.frame.size.width/2, 20);
+    NSString *anchorPointString = NSStringFromCGPoint(anchorPoint);
     
-    
-    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
-    [ballAttachmentBehavior setFrequency: 10.0];
-    [ballAttachmentBehavior setDamping: 0.65];
-    
-    [starAttachmentBehavior setFrequency: 10.0];
-    [starAttachmentBehavior setDamping: 0.65];
-    
-    [self.animator addBehavior: ballAttachmentBehavior];
-    [self.animator addBehavior: starAttachmentBehavior];
-    [self.animator addBehavior: collisionBehavior];
-    [self.animator addBehavior: gravityBehavior];
-                                              
-    
+    BouncingSpringBehavior *bouncingSpringBehavior = [[BouncingSpringBehavior alloc]initWithItems:@[self.ball, self.star]
+                                                                                  withAnchorPoint:anchorPointString];
+    [self.animator addBehavior: bouncingSpringBehavior];
+
 }
 
 - (void)didReceiveMemoryWarning

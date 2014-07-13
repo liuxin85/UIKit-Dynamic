@@ -21,11 +21,13 @@
 		4B36E71B197244670092EF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B36E6FD197244670092EF47 /* UIKit.framework */; };
 		4B36E723197244670092EF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B36E721197244670092EF47 /* InfoPlist.strings */; };
 		4B36E725197244670092EF47 /* UIKit_DynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E724197244670092EF47 /* UIKit_DynamicsTests.m */; };
-		4B36E72F19724A590092EF47 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B36E72E19724A590092EF47 /* Ball.png */; };
 		4B36E73219724DF90092EF47 /* GravityWithCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */; };
 		4B36E73B1972541A0092EF47 /* ItemPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73A1972541A0092EF47 /* ItemPropertyViewController.m */; };
 		4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E73D19725A9F0092EF47 /* SnapViewController.m */; };
 		4B36E741197269B10092EF47 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36E740197269B10092EF47 /* PushViewController.m */; };
+		4B656FDE1972707C00F1861A /* SpringAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B656FDD1972707C00F1861A /* SpringAttachmentViewController.m */; };
+		4B656FE01972718100F1861A /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B656FDF1972718100F1861A /* Star.png */; };
+		4B656FE21972720100F1861A /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B656FE11972720100F1861A /* Ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,6 @@
 		4B36E720197244670092EF47 /* UIKit-DynamicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKit-DynamicsTests-Info.plist"; sourceTree = "<group>"; };
 		4B36E722197244670092EF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B36E724197244670092EF47 /* UIKit_DynamicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKit_DynamicsTests.m; sourceTree = "<group>"; };
-		4B36E72E19724A590092EF47 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
 		4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityWithCollisionViewController.h; sourceTree = "<group>"; };
 		4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityWithCollisionViewController.m; sourceTree = "<group>"; };
 		4B36E7391972541A0092EF47 /* ItemPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemPropertyViewController.h; sourceTree = "<group>"; };
@@ -67,6 +68,10 @@
 		4B36E73D19725A9F0092EF47 /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
 		4B36E73F197269B10092EF47 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		4B36E740197269B10092EF47 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		4B656FDC1972707C00F1861A /* SpringAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAttachmentViewController.h; sourceTree = "<group>"; };
+		4B656FDD1972707C00F1861A /* SpringAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAttachmentViewController.m; sourceTree = "<group>"; };
+		4B656FDF1972718100F1861A /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		4B656FE11972720100F1861A /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,8 @@
 				4B36E708197244670092EF47 /* GravityAppDelegate.h */,
 				4B36E709197244670092EF47 /* GravityAppDelegate.m */,
 				4B36E70B197244670092EF47 /* Main.storyboard */,
+				4B656FDC1972707C00F1861A /* SpringAttachmentViewController.h */,
+				4B656FDD1972707C00F1861A /* SpringAttachmentViewController.m */,
 				4B36E73F197269B10092EF47 /* PushViewController.h */,
 				4B36E740197269B10092EF47 /* PushViewController.m */,
 				4B36E73C19725A9F0092EF47 /* SnapViewController.h */,
@@ -139,7 +146,8 @@
 				4B36E70F197244670092EF47 /* GravityViewController.m */,
 				4B36E73019724DF90092EF47 /* GravityWithCollisionViewController.h */,
 				4B36E73119724DF90092EF47 /* GravityWithCollisionViewController.m */,
-				4B36E72E19724A590092EF47 /* Ball.png */,
+				4B656FDF1972718100F1861A /* Star.png */,
+				4B656FE11972720100F1861A /* Ball.png */,
 				4B36E711197244670092EF47 /* Images.xcassets */,
 				4B36E700197244670092EF47 /* Supporting Files */,
 			);
@@ -254,7 +262,8 @@
 			files = (
 				4B36E712197244670092EF47 /* Images.xcassets in Resources */,
 				4B36E704197244670092EF47 /* InfoPlist.strings in Resources */,
-				4B36E72F19724A590092EF47 /* Ball.png in Resources */,
+				4B656FE21972720100F1861A /* Ball.png in Resources */,
+				4B656FE01972718100F1861A /* Star.png in Resources */,
 				4B36E70D197244670092EF47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +287,7 @@
 				4B36E73B1972541A0092EF47 /* ItemPropertyViewController.m in Sources */,
 				4B36E706197244670092EF47 /* main.m in Sources */,
 				4B36E70A197244670092EF47 /* GravityAppDelegate.m in Sources */,
+				4B656FDE1972707C00F1861A /* SpringAttachmentViewController.m in Sources */,
 				4B36E73E19725A9F0092EF47 /* SnapViewController.m in Sources */,
 				4B36E741197269B10092EF47 /* PushViewController.m in Sources */,
 				4B36E710197244670092EF47 /* GravityViewController.m in Sources */,
@@ -487,6 +497,7 @@
 				4B36E72A197244670092EF47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B36E72B197244670092EF47 /* Build configuration list for PBXNativeTarget "UIKit-DynamicsTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +506,7 @@
 				4B36E72D197244670092EF47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
